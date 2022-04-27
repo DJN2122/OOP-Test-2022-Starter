@@ -34,7 +34,7 @@ public class NematodeVisualiser extends PApplet
 		}
 	}
 	
-	public void draw()
+	public void draw() // can not draw shapes.
 	{	
 		stroke(255, 0, 0);
 		strokeWeight(3);
@@ -72,7 +72,7 @@ public class NematodeVisualiser extends PApplet
 		size(800, 800);
 	}
 
-	public void setup() 
+	public void setup() //setup for visuals
 	{
 		colorMode(RGB);
 		background(0);
